@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "owner": "heitormeiras-team",
+    "name": "Sangue Solidário",
+    "slug": "sangue-solidario-app",
+    "scheme": "sanguesolidario",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#A01717",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#A01717",
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "f16ad9a8-a6fb-4e02-a213-123dd7aed551"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/f16ad9a8-a6fb-4e02-a213-123dd7aed551"
+    }
+  }
+}

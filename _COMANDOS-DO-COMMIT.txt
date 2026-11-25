@@ -1,0 +1,12 @@
+﻿Commit 3 - João da Fonte
+Mensagem: feat: regras de compatibilidade, carência e formatação
+
+Arquivos:
+  src/lib/regras.js
+  src/lib/formatar.js
+
+Comandos (rode dentro da pasta do repositorio, depois de copiar os arquivos):
+
+git add src/lib/regras.js src/lib/formatar.js
+git commit -m "feat: regras de compatibilidade, carência e formatação"
+git push
